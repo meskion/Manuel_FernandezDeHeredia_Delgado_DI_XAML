@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Manuel_Fernandez_de_Heredia_Delgado_DI_XAML/1.0.0": {
+        "runtime": {
+          "Manuel_Fernandez_de_Heredia_Delgado_DI_XAML.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Manuel_Fernandez_de_Heredia_Delgado_DI_XAML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

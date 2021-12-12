@@ -1,0 +1,30 @@
+﻿<Window x:Class="Manuel_Fernandez_de_Heredia_Delgado_DI_XAML.PoolForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Manuel_Fernandez_de_Heredia_Delgado_DI_XAML"
+        mc:Ignorable="d"
+        Title="PoolForm" Height="334" Width="300">
+    <Grid>
+        <Canvas Background="LightYellow"></Canvas>
+        <StackPanel Margin="15,48,173,117">
+            <Label Content="Sala"></Label>
+            <Label Content="Temperatura"></Label>
+            <Label Content="Especies"></Label>
+            <Label Content="Última Revisión"></Label>
+            <Label Content="Tratamiento"></Label>
+
+        </StackPanel>
+
+        <StackPanel Margin="127,48,23,105">
+            <TextBox Margin="0,5,0,0" Text="{Binding Path=Name}"></TextBox>
+            <TextBox Margin="0,7,0,0" Text="{Binding Path=Temperature}"></TextBox>
+            <TextBox Margin="0,8,0,0" Text="{Binding Path=Species}"></TextBox>
+            <DatePicker Margin="0,6,0,0"  SelectedDate="{Binding Path=LastReview}"></DatePicker>
+            <TextBox Margin="0,8,0,0" Text="{Binding Path=Treatment}"></TextBox>
+        </StackPanel>
+        <Button Content="Aceptar" Background="CadetBlue" Foreground="White" HorizontalAlignment="Left" Margin="46,249,0,0" VerticalAlignment="Top" Height="30" Width="50" Click="AcceptClick" RenderTransformOrigin="0.612,1.535"/>
+        <Button Content="Cancelar" Background="CadetBlue" Foreground="White" HorizontalAlignment="Left" Margin="188,249,0,0" VerticalAlignment="Top" Height="30" Width="58" Click="CancelClick"/>
+    </Grid>
+</Window>
