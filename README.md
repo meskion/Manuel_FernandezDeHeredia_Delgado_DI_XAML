@@ -66,4 +66,16 @@ El modelo es la clase _Pool_, donde estructuramos como vamos a guardar los datos
 
 Tenemos tres botones con una imagen que representa la sala correspondiente. Al hacer click en cada imagen se muestra un texto oculto con información sobre la sala.
 
+## Minijuego
+
+![](juegoAcuario.png)
+
+en esta vista hay un pequeño juguete interactivo. Con un _Binding_ he relacionado la posicion de un _slider_ con el tamaño de la imagen de un pez globo, de manera que el usuario puede ver como se "hincha" el pez globo al mover el _slider_. 
+
+## Formulario de contacto
+
+![](contactoAcuario.png)
+
+El último apartado tiene un formulario de contacto que rellenar con los datos del usuario, para aportar sugerencias o dudas al acuario desde la aplicación. También aparece un mapa con la ubicación del acuario. El botón de enviar no es funcional por supuesto, pero en una apliación real podria enviar la información al _backend_ a traves de un controlador.
+
 
